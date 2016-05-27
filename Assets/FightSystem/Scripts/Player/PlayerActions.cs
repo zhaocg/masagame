@@ -21,12 +21,12 @@ public class PlayerActions : MonoBehaviour {
     {
         if(player.gameState == PlayerState.SHOOT)
         {
-            if (dir == VRInput.SwipeDirection.RIGHT)
+            if (dir == VRInput.SwipeDirection.LEFT)
             {
                 //CastRightSpells();
                 StartCoroutine(CastLeftCoroutine());
             }
-            if (dir == VRInput.SwipeDirection.LEFT)
+            if (dir == VRInput.SwipeDirection.RIGHT)
             {
                 //CastLeftSpells();
                 StartCoroutine(CastRightCoroutine());

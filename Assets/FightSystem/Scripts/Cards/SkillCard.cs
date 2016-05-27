@@ -16,7 +16,7 @@ public class SkillCard : MonoBehaviour {
 
     public Transform objpos;                            //卡牌特效位置
     public bool canCreatemagic = false;                 //是否可以聚集能量
-    public Transform SpecialEffects;                    //特效
+    public CardSpecialEffect specialEffects;                    //特效
     
     public int indexInList = 0;
 
@@ -75,9 +75,9 @@ public class SkillCard : MonoBehaviour {
         cardMesh = this.GetComponent<MeshRenderer>();
         rigid = this.GetComponent<Rigidbody>();
         //记录特效初始位置
-        if (SpecialEffects!=null)
+        if (specialEffects!=null)
         {
-            StartSpecialPos = SpecialEffects.transform.position;
+            StartSpecialPos = specialEffects.transform.position;
         }
         isActive = true;
         Initialize();
@@ -91,16 +91,16 @@ public class SkillCard : MonoBehaviour {
     /// <param name="ismove"></param>
     public void SpecialEffectsMove(bool ismove)
     {
-        if (SpecialEffects != null)
+        if (specialEffects != null)
         {
             if (ismove)
             {
                 ShowSpecialEffect();
-                SpecialEffects.DOLocalMove(objpos.transform.localPosition, 0.5f);
+                specialEffects.transform.DOLocalMove(objpos.transform.localPosition, 0.5f);
             }
             else
             {
-                SpecialEffects.DOMove(StartSpecialPos, 0.5f);
+                specialEffects.transform.DOMove(StartSpecialPos, 0.5f);
                 Invoke("HideSpecialEffect", 0.3f);
             }
         }
@@ -112,7 +112,7 @@ public class SkillCard : MonoBehaviour {
     /// </summary>
     public void ShowSpecialEffect()
     {
-        SpecialEffects.gameObject.SetActive(true);
+        specialEffects.gameObject.SetActive(true);
     }
 
 
@@ -121,7 +121,7 @@ public class SkillCard : MonoBehaviour {
     /// </summary>
     public void HideSpecialEffect()
     {
-        SpecialEffects.gameObject.SetActive(false);
+        specialEffects.gameObject.SetActive(false);
     }
 
 

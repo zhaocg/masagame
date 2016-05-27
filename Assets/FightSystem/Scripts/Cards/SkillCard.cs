@@ -4,13 +4,6 @@ using System;
 using VRStandardAssets.Utils;
 
 public class SkillCard : MonoBehaviour {
-    public enum Type
-    {
-        FireBall,
-        IceCone,
-        PosionKnife,
-        Shield
-    }
     public SpellsType type = SpellsType.FireBall;       //卡牌类型
     public Spells spells;                               //卡牌上的法术
 

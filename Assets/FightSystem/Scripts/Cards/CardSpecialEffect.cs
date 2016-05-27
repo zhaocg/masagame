@@ -8,6 +8,14 @@ using System.Collections;
 /// </summary>
 public class CardSpecialEffect : MonoBehaviour {
 
+    public MeshRenderer effectMesh;
 
+    public Material mat_idle;
+    public Material mat_power;
+
+    //public IEnumerator WaitForFadeOut()
+    //{
+
+    //}
     
 }

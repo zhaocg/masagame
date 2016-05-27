@@ -14,7 +14,7 @@ public enum SpellsType
 {
     FireBall,
     IceCone,
-    Posion,
+    Poison,
     Shield
 }
 
@@ -39,16 +39,11 @@ public class Spells{
     public float effectTime;                    //效果保持时间
     public float damage_effect;                 //效果伤害
     public string prefabPath;                   //法术预制物体路径
-
-    //public SpellsPrefab prefab;
-    //public string itemPath;
-    //public Transform spellsPoint;
-
+    
     public void Cast(Transform startPoint)
     {
         SpellsPrefab sp = (SpellsPrefab)MonoBehaviour.Instantiate(Resources.Load<SpellsPrefab>(prefabPath), startPoint.position, startPoint.rotation);
         sp.spells = this;
-        Debug.Log("Cast");
     }
 }
 

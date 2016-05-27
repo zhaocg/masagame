@@ -64,4 +64,16 @@ public class PlayerActions : MonoBehaviour {
         player.spells.rightCaster.Cast();
         yield return player.animations.HandAttackCoroutine(0f);
     }
+
+    public IEnumerator LeftHandGetSpells()
+    {
+        yield return player.animations.HandAttackCoroutine(0.5f);
+        yield return player.animations.HandAttackCoroutine(0f);
+    }
+
+    public IEnumerator RightHandGetSpells()
+    {
+        yield return player.animations.HandAttackCoroutine(-0.5f);
+        yield return player.animations.HandAttackCoroutine(0f);
+    }
 }

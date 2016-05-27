@@ -239,6 +239,7 @@ public class SkillCard : MonoBehaviour {
             if (canCreatemagic)
             {
                 Player.instance.energySystem.EnergyCost(energyIndex, spells.energyCost);
+                StartCoroutine(Player.instance.actions.LeftHandGetSpells());
                 Player.instance.spells.leftCaster.SetSpell( this.spells);
             }
             //卡牌失去重力掉落
@@ -249,12 +250,11 @@ public class SkillCard : MonoBehaviour {
             if (canCreatemagic)
             {
                 Player.instance.energySystem.EnergyCost(energyIndex, spells.energyCost);
+                StartCoroutine(Player.instance.actions.RightHandGetSpells());
                 Player.instance.spells.rightCaster.SetSpell(this.spells);
             }
             //卡牌失去重力掉落
             DropOut();
         }
-
-        
     }
 }

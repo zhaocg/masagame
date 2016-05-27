@@ -1,0 +1,252 @@
+fileFormatVersion: 2
+guid: 7e785d4457cb9864bb1afcf1dbe0812f
+timeCreated: 1463737683
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: work_qianjing_fuwen_0
+    21300002: work_qianjing_fuwen_1
+    21300004: work_qianjing_fuwen_2
+    21300006: work_qianjing_fuwen_3
+    21300008: work_qianjing_fuwen_4
+    21300010: work_qianjing_fuwen_5
+    21300012: work_qianjing_fuwen_6
+    21300014: work_qianjing_fuwen_7
+    21300016: work_qianjing_fuwen_8
+    21300018: work_qianjing_fuwen_9
+    21300020: work_qianjing_fuwen_10
+    21300022: work_qianjing_fuwen_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: work_qianjing_fuwen_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 390
+        width: 93
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 47}
+        - {x: -46.5, y: -47}
+        - {x: 46.5, y: -47}
+        - {x: 46.5, y: 47}
+    - name: work_qianjing_fuwen_1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 384
+        width: 126
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: 52.5}
+        - {x: -63, y: -52.5}
+        - {x: 63, y: -52.5}
+        - {x: 63, y: 52.5}
+    - name: work_qianjing_fuwen_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 383
+        width: 118
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 53}
+        - {x: -59, y: -53}
+        - {x: 59, y: -53}
+        - {x: 59, y: 53}
+    - name: work_qianjing_fuwen_3
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 384
+        width: 129
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.5, y: 51.5}
+        - {x: -64.5, y: -51.5}
+        - {x: 64.5, y: -51.5}
+        - {x: 64.5, y: 51.5}
+    - name: work_qianjing_fuwen_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 298
+        width: 195
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -97.5, y: 43}
+        - {x: -97.5, y: -43}
+        - {x: 97.5, y: -43}
+        - {x: 97.5, y: 43}
+    - name: work_qianjing_fuwen_5
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 307
+        width: 146
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73, y: 40.5}
+        - {x: -73, y: -40.5}
+        - {x: 73, y: -40.5}
+        - {x: 73, y: 40.5}
+    - name: work_qianjing_fuwen_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 188
+        width: 104
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -52, y: 54}
+        - {x: -52, y: -53}
+        - {x: -49, y: -54}
+        - {x: 52, y: -54}
+        - {x: 52, y: 54}
+    - name: work_qianjing_fuwen_7
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 186
+        width: 111
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.5, y: 52}
+        - {x: -55.5, y: -52}
+        - {x: 55.5, y: -52}
+        - {x: 55.5, y: 52}
+    - name: work_qianjing_fuwen_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 202
+        width: 99
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.5, y: 44.5}
+        - {x: -49.5, y: -44.5}
+        - {x: 49.5, y: -44.5}
+        - {x: 49.5, y: 44.5}
+    - name: work_qianjing_fuwen_9
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 203
+        width: 112
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: 43.5}
+        - {x: -56, y: -43.5}
+        - {x: 56, y: -43.5}
+        - {x: 56, y: 41.5}
+        - {x: 54, y: 43.5}
+    - name: work_qianjing_fuwen_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 102
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64, y: 45}
+        - {x: -64, y: -44}
+        - {x: -63, y: -45}
+        - {x: 64, y: -45}
+        - {x: 64, y: 45}
+    - name: work_qianjing_fuwen_11
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 89
+        width: 151
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -75.5, y: 58}
+        - {x: -75.5, y: -58}
+        - {x: 75.5, y: -58}
+        - {x: 75.5, y: 58}
+    outline: []
+  spritePackingTag: fuwen
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

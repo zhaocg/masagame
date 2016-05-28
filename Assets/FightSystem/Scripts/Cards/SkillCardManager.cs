@@ -77,6 +77,4 @@ public class SkillCardManager : MonoBehaviour {
 
         return card.GetComponent<SkillCard>();
     }
-    
-
 }
